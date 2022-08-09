@@ -10,9 +10,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\APY\DataGridBundle\Grid\Export;
+namespace APY\DataGridBundle\Grid\Export;
 
-use Mahefa\APY\DataGridBundle\Grid\Column\ArrayColumn;
+use APY\DataGridBundle\Grid\Column\ArrayColumn;
 use Symfony\Component\DependencyInjection\ContainerAwareInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\Response;
@@ -56,7 +56,7 @@ abstract class Export implements ExportInterface, ContainerAwareInterface
      * @param string $charset  Charset of the exported data
      * @param string $role     Security role
      *
-     * @return \Mahefa\APY\DataGridBundle\Grid\Export\Export
+     * @return \APY\DataGridBundle\Grid\Export\Export
      */
     public function __construct($title, $fileName = 'export', $params = [], $charset = 'UTF-8', $role = null)
     {
@@ -72,7 +72,7 @@ abstract class Export implements ExportInterface, ContainerAwareInterface
      *
      * @param ContainerInterface $container A ContainerInterface instance
      *
-     * @return \Mahefa\APY\DataGridBundle\Grid\Export\Export
+     * @return \APY\DataGridBundle\Grid\Export\Export
      */
     public function setContainer(ContainerInterface $container = null)
     {
@@ -434,7 +434,7 @@ abstract class Export implements ExportInterface, ContainerAwareInterface
      *
      * @throws \Exception
      *
-     * @return \Mahefa\APY\DataGridBundle\Grid\Export\Export
+     * @return \APY\DataGridBundle\Grid\Export\Export
      */
     public function setTemplate($template)
     {
@@ -663,7 +663,7 @@ abstract class Export implements ExportInterface, ContainerAwareInterface
      * @param $name
      * @param $value
      *
-     * @return \Mahefa\APY\DataGridBundle\Grid\Export\Export
+     * @return \APY\DataGridBundle\Grid\Export\Export
      */
     public function addParameter($name, $value)
     {

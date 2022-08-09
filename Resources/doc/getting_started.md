@@ -12,7 +12,7 @@ You can choose between an [Entity (ORM)](source/entity_source.md), a [Document (
 // MyProject\MyBundle\DefaultController.php
 namespace MyProject\MyBundle\Controller;
 
-use Mahefa\APY\DataGridBundle\Grid\Source\Entity;
+use APY\DataGridBundle\Grid\Source\Entity;
 
 class DefaultController extends Controller
 {
@@ -32,7 +32,7 @@ class DefaultController extends Controller
 // MyProject\MyBundle\DefaultController.php
 namespace MyProject\MyBundle\Controller;
 
-use Mahefa\APY\DataGridBundle\Grid\Source\Document;
+use APY\DataGridBundle\Grid\Source\Document;
 
 class DefaultController extends Controller
 {
@@ -52,7 +52,7 @@ class DefaultController extends Controller
 // MyProject\MyBundle\DefaultController.php
 namespace MyProject\MyBundle\Controller;
 
-use Mahefa\APY\DataGridBundle\Grid\Source\Vector;
+use APY\DataGridBundle\Grid\Source\Vector;
 
 class DefaultController extends Controller
 {
@@ -179,7 +179,7 @@ See [grid response](grid_configuration/grid_response.md) for more informations.
 // MyProject\MyBundle\DefaultController.php
 namespace MyProject\MyBundle\Controller;
 
-use Mahefa\APY\DataGridBundle\Grid\Source\Entity;
+use APY\DataGridBundle\Grid\Source\Entity;
 
 class DefaultController extends Controller
 {

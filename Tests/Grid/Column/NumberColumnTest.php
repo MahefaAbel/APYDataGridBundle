@@ -1,11 +1,11 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Tests\Grid\Column;
+namespace APY\DataGridBundle\Tests\Grid\Column;
 
-use Mahefa\APY\DataGridBundle\Grid\Column\Column;
-use Mahefa\APY\DataGridBundle\Grid\Column\NumberColumn;
-use Mahefa\APY\DataGridBundle\Grid\Filter;
-use Mahefa\APY\DataGridBundle\Grid\Row;
+use APY\DataGridBundle\Grid\Column\Column;
+use APY\DataGridBundle\Grid\Column\NumberColumn;
+use APY\DataGridBundle\Grid\Filter;
+use APY\DataGridBundle\Grid\Row;
 use PHPUnit\Framework\TestCase;
 use Symfony\Bundle\FrameworkBundle\Routing\Router;
 

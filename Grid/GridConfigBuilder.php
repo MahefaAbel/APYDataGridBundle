@@ -1,9 +1,9 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Grid;
+namespace APY\DataGridBundle\Grid;
 
-use Mahefa\APY\DataGridBundle\Grid\Action\RowActionInterface;
-use Mahefa\APY\DataGridBundle\Grid\Source\Source;
+use APY\DataGridBundle\Grid\Action\RowActionInterface;
+use APY\DataGridBundle\Grid\Source\Source;
 
 /**
  * A basic grid configuration.

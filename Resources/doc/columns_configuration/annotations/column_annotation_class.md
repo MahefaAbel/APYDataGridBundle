@@ -7,7 +7,7 @@ Example:
 ```php
 <?php
 ...
-use Mahefa\APY\DataGridBundle\Grid\Mapping as GRID;
+use APY\DataGridBundle\Grid\Mapping as GRID;
 
 /**
  * Add custom columns to the grid

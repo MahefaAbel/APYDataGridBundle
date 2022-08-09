@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\APY\DataGridBundle\Grid\Mapping\Driver;
+namespace APY\DataGridBundle\Grid\Mapping\Driver;
 
 interface DriverInterface
 {

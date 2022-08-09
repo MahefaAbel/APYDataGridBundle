@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\APY\DataGridBundle\DependencyInjection;
+namespace APY\DataGridBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Grid\Exception;
+namespace APY\DataGridBundle\Grid\Exception;
 
 /**
  * Class ColumnNotFoundException.

@@ -1,15 +1,15 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Tests\Grid\Source;
+namespace APY\DataGridBundle\Tests\Grid\Source;
 
-use Mahefa\APY\DataGridBundle\Grid\Column\Column;
-use Mahefa\APY\DataGridBundle\Grid\Columns;
-use Mahefa\APY\DataGridBundle\Grid\Filter;
-use Mahefa\APY\DataGridBundle\Grid\Helper\ColumnsIterator;
-use Mahefa\APY\DataGridBundle\Grid\Mapping\Metadata\Manager;
-use Mahefa\APY\DataGridBundle\Grid\Mapping\Metadata\Metadata;
-use Mahefa\APY\DataGridBundle\Grid\Rows;
-use Mahefa\APY\DataGridBundle\Grid\Source\Document;
+use APY\DataGridBundle\Grid\Column\Column;
+use APY\DataGridBundle\Grid\Columns;
+use APY\DataGridBundle\Grid\Filter;
+use APY\DataGridBundle\Grid\Helper\ColumnsIterator;
+use APY\DataGridBundle\Grid\Mapping\Metadata\Manager;
+use APY\DataGridBundle\Grid\Mapping\Metadata\Metadata;
+use APY\DataGridBundle\Grid\Rows;
+use APY\DataGridBundle\Grid\Source\Document;
 use MongoDB\Driver\Cursor;
 use Doctrine\ODM\MongoDB\DocumentManager;
 use Doctrine\ODM\MongoDB\Repository\DocumentRepository;

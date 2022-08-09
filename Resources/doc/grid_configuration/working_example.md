@@ -9,12 +9,12 @@ namespace MyProject\MyBundle\Controller;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-use Mahefa\APY\DataGridBundle\Grid\Source\Entity;
-use Mahefa\APY\DataGridBundle\Grid\Column\TextColumn;
-use Mahefa\APY\DataGridBundle\Grid\Column\ActionsColumn;
-use Mahefa\APY\DataGridBundle\Grid\Action\MassAction;
-use Mahefa\APY\DataGridBundle\Grid\Action\DeleteMassAction;
-use Mahefa\APY\DataGridBundle\Grid\Action\RowAction;
+use APY\DataGridBundle\Grid\Source\Entity;
+use APY\DataGridBundle\Grid\Column\TextColumn;
+use APY\DataGridBundle\Grid\Column\ActionsColumn;
+use APY\DataGridBundle\Grid\Action\MassAction;
+use APY\DataGridBundle\Grid\Action\DeleteMassAction;
+use APY\DataGridBundle\Grid\Action\RowAction;
 
 class DefaultController extends Controller
 {
@@ -32,7 +32,7 @@ class DefaultController extends Controller
     {
         $source = new Entity('MyProjectMyBundle:User');
 
-        /* @var $grid Mahefa\APY\DataGridBundle\Grid\Grid */
+        /* @var $grid APY\DataGridBundle\Grid\Grid */
 
         // Get a grid instance
         $grid = $this->get('grid');

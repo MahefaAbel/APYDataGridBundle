@@ -11,16 +11,16 @@
  *
  */
 
-namespace Mahefa\APY\DataGridBundle\Grid;
+namespace APY\DataGridBundle\Grid;
 
-use Mahefa\APY\DataGridBundle\Grid\Action\MassActionInterface;
-use Mahefa\APY\DataGridBundle\Grid\Action\RowActionInterface;
-use Mahefa\APY\DataGridBundle\Grid\Column\ActionsColumn;
-use Mahefa\APY\DataGridBundle\Grid\Column\Column;
-use Mahefa\APY\DataGridBundle\Grid\Column\MassActionColumn;
-use Mahefa\APY\DataGridBundle\Grid\Export\ExportInterface;
-use Mahefa\APY\DataGridBundle\Grid\Source\Entity;
-use Mahefa\APY\DataGridBundle\Grid\Source\Source;
+use APY\DataGridBundle\Grid\Action\MassActionInterface;
+use APY\DataGridBundle\Grid\Action\RowActionInterface;
+use APY\DataGridBundle\Grid\Column\ActionsColumn;
+use APY\DataGridBundle\Grid\Column\Column;
+use APY\DataGridBundle\Grid\Column\MassActionColumn;
+use APY\DataGridBundle\Grid\Export\ExportInterface;
+use APY\DataGridBundle\Grid\Source\Entity;
+use APY\DataGridBundle\Grid\Source\Source;
 use Symfony\Component\DependencyInjection\Container;
 use Symfony\Component\DependencyInjection\ContainerAwareInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse;
@@ -107,7 +107,7 @@ class Grid implements GridInterface
     protected $routeParameters;
 
     /**
-     * @var \Mahefa\APY\DataGridBundle\Grid\Source\Source
+     * @var \APY\DataGridBundle\Grid\Source\Source
      */
     protected $source;
 
@@ -137,22 +137,22 @@ class Grid implements GridInterface
     protected $limits = [];
 
     /**
-     * @var \Mahefa\APY\DataGridBundle\Grid\Columns|\Mahefa\APY\DataGridBundle\Grid\Column\Column[]
+     * @var \APY\DataGridBundle\Grid\Columns|\APY\DataGridBundle\Grid\Column\Column[]
      */
     protected $columns;
 
     /**
-     * @var \Mahefa\APY\DataGridBundle\Grid\Rows
+     * @var \APY\DataGridBundle\Grid\Rows
      */
     protected $rows;
 
     /**
-     * @var \Mahefa\APY\DataGridBundle\Grid\Action\MassAction[]
+     * @var \APY\DataGridBundle\Grid\Action\MassAction[]
      */
     protected $massActions = [];
 
     /**
-     * @var \Mahefa\APY\DataGridBundle\Grid\Action\RowAction[]
+     * @var \APY\DataGridBundle\Grid\Action\RowAction[]
      */
     protected $rowActions = [];
 
@@ -202,7 +202,7 @@ class Grid implements GridInterface
     protected $noResultMessage;
 
     /**
-     * @var \Mahefa\APY\DataGridBundle\Grid\Export\Export[]
+     * @var \APY\DataGridBundle\Grid\Export\Export[]
      */
     protected $exports = [];
 

@@ -11,12 +11,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\APY\DataGridBundle\Grid\Source;
+namespace APY\DataGridBundle\Grid\Source;
 
-use Mahefa\APY\DataGridBundle\Grid\Column\Column;
-use Mahefa\APY\DataGridBundle\Grid\Column\JoinColumn;
-use Mahefa\APY\DataGridBundle\Grid\Row;
-use Mahefa\APY\DataGridBundle\Grid\Rows;
+use APY\DataGridBundle\Grid\Column\Column;
+use APY\DataGridBundle\Grid\Column\JoinColumn;
+use APY\DataGridBundle\Grid\Row;
+use APY\DataGridBundle\Grid\Rows;
 use Doctrine\ORM\NoResultException;
 use Doctrine\ORM\Query;
 use Doctrine\ORM\QueryBuilder;
@@ -62,7 +62,7 @@ class Entity extends Source
     protected $managerName;
 
     /**
-     * @var \Mahefa\APY\DataGridBundle\Grid\Mapping\Metadata\Metadata
+     * @var \APY\DataGridBundle\Grid\Mapping\Metadata\Metadata
      */
     protected $metadata;
 
@@ -155,7 +155,7 @@ class Entity extends Source
     }
 
     /**
-     * @param \Mahefa\APY\DataGridBundle\Grid\Column\Column $column
+     * @param \APY\DataGridBundle\Grid\Column\Column $column
      *
      * @return string
      */
@@ -191,7 +191,7 @@ class Entity extends Source
     }
 
     /**
-     * @param \Mahefa\APY\DataGridBundle\Grid\Column\Column $column
+     * @param \APY\DataGridBundle\Grid\Column\Column $column
      * @return string
      */
     protected function getFieldName($column, $withAlias = false)
@@ -296,7 +296,7 @@ class Entity extends Source
     }
 
     /**
-     * @param \Mahefa\APY\DataGridBundle\Grid\Columns $columns
+     * @param \APY\DataGridBundle\Grid\Columns $columns
      */
     public function getColumns($columns)
     {
@@ -378,12 +378,12 @@ class Entity extends Source
     }
 
     /**
-     * @param \Mahefa\APY\DataGridBundle\Grid\Column\Column[] $columns
+     * @param \APY\DataGridBundle\Grid\Column\Column[] $columns
      * @param int                                      $page             Page Number
      * @param int                                      $limit            Rows Per Page
      * @param int                                      $gridDataJunction Grid data junction
      *
-     * @return \Mahefa\APY\DataGridBundle\Grid\Rows
+     * @return \APY\DataGridBundle\Grid\Rows
      */
     public function execute($columns, $page = 0, $limit = 0, $maxResults = null, $gridDataJunction = Column::DATA_CONJUNCTION)
     {
@@ -621,7 +621,7 @@ class Entity extends Source
             }
 
             $hints[] = 'Doctrine\ORM\Tools\Pagination\CountWalker';
-            //$hints[] = 'Mahefa\APY\DataGridBundle\Grid\Helper\ORMCountWalker';
+            //$hints[] = 'APY\DataGridBundle\Grid\Helper\ORMCountWalker';
             $countQuery->setHint(Query::HINT_CUSTOM_TREE_WALKERS, $hints);
         }
         $countQuery->setFirstResult(null)->setMaxResults($maxResults);

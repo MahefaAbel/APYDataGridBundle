@@ -9,7 +9,7 @@ If negative column numbers are used, then the column is added that far from the 
 
 ```php
 <?php
-use Mahefa\APY\DataGridBundle\Grid\Column\BlankColumn;
+use APY\DataGridBundle\Grid\Column\BlankColumn;
 ...
 $grid->setSource($source);
 
@@ -44,7 +44,7 @@ See [column annotations for property](../columns_configuration/annotations/colum
 
 ```php
 <?php
-use Mahefa\APY\DataGridBundle\Grid\Column\BlankColumn;
+use APY\DataGridBundle\Grid\Column\BlankColumn;
 ...
 $grid->setSource($source);
 

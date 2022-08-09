@@ -1,10 +1,10 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Tests\Twig;
+namespace APY\DataGridBundle\Tests\Twig;
 
-use Mahefa\APY\DataGridBundle\Grid\Column\Column;
-use Mahefa\APY\DataGridBundle\Grid\Grid;
-use Mahefa\APY\DataGridBundle\Twig\DataGridExtension;
+use APY\DataGridBundle\Grid\Column\Column;
+use APY\DataGridBundle\Grid\Grid;
+use APY\DataGridBundle\Twig\DataGridExtension;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Routing\RouterInterface;
 

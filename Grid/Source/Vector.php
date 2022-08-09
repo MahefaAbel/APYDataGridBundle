@@ -10,17 +10,17 @@
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\APY\DataGridBundle\Grid\Source;
+namespace APY\DataGridBundle\Grid\Source;
 
-use Mahefa\APY\DataGridBundle\Grid\Column\ArrayColumn;
-use Mahefa\APY\DataGridBundle\Grid\Column\BooleanColumn;
-use Mahefa\APY\DataGridBundle\Grid\Column\Column;
-use Mahefa\APY\DataGridBundle\Grid\Column\DateColumn;
-use Mahefa\APY\DataGridBundle\Grid\Column\DateTimeColumn;
-use Mahefa\APY\DataGridBundle\Grid\Column\NumberColumn;
-use Mahefa\APY\DataGridBundle\Grid\Column\TextColumn;
-use Mahefa\APY\DataGridBundle\Grid\Column\UntypedColumn;
-use Mahefa\APY\DataGridBundle\Grid\Rows;
+use APY\DataGridBundle\Grid\Column\ArrayColumn;
+use APY\DataGridBundle\Grid\Column\BooleanColumn;
+use APY\DataGridBundle\Grid\Column\Column;
+use APY\DataGridBundle\Grid\Column\DateColumn;
+use APY\DataGridBundle\Grid\Column\DateTimeColumn;
+use APY\DataGridBundle\Grid\Column\NumberColumn;
+use APY\DataGridBundle\Grid\Column\TextColumn;
+use APY\DataGridBundle\Grid\Column\UntypedColumn;
+use APY\DataGridBundle\Grid\Rows;
 
 /**
  * Vector is really an Array.
@@ -154,7 +154,7 @@ class Vector extends Source
     }
 
     /**
-     * @param \Mahefa\APY\DataGridBundle\Grid\Columns $columns
+     * @param \APY\DataGridBundle\Grid\Columns $columns
      */
     public function getColumns($columns)
     {
@@ -198,7 +198,7 @@ class Vector extends Source
     }
 
     /**
-     * @param \Mahefa\APY\DataGridBundle\Grid\Column\Column[] $columns
+     * @param \APY\DataGridBundle\Grid\Column\Column[] $columns
      * @param int                                      $page             Page Number
      * @param int                                      $limit            Rows Per Page
      * @param int                                      $maxResults       Max rows

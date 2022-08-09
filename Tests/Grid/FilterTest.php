@@ -1,8 +1,8 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Tests\Grid;
+namespace APY\DataGridBundle\Tests\Grid;
 
-use Mahefa\APY\DataGridBundle\Grid\Filter;
+use APY\DataGridBundle\Grid\Filter;
 use PHPUnit\Framework\TestCase;
 
 class FilterTest extends TestCase

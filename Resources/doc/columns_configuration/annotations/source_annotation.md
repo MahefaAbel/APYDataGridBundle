@@ -8,7 +8,7 @@ It's optional if you have declare Column annotation for your properties.
 ```php
 <?php
 ...
-use Mahefa\APY\DataGridBundle\Grid\Mapping as GRID;
+use APY\DataGridBundle\Grid\Mapping as GRID;
 
 /**
  * @GRID\Source(columns="id, type")

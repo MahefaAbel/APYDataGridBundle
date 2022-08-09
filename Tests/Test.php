@@ -1,6 +1,6 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Tests;
+namespace APY\DataGridBundle\Tests;
 
 class Test extends \PHPUnit_Framework_TestCase
 {

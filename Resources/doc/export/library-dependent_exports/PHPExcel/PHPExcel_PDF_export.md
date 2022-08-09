@@ -10,7 +10,7 @@ Mime type = `application/pdf`
 ```php
 <?php
 ...
-use Mahefa\APY\DataGridBundle\Grid\Export\PHPExcelPDFExport;
+use APY\DataGridBundle\Grid\Export\PHPExcelPDFExport;
 ...
 $grid->setSource($source);
 

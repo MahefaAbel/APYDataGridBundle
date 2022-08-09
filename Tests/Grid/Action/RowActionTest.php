@@ -1,9 +1,9 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Tests\Grid\Action;
+namespace APY\DataGridBundle\Tests\Grid\Action;
 
-use Mahefa\APY\DataGridBundle\Grid\Action\RowAction;
-use Mahefa\APY\DataGridBundle\Grid\Row;
+use APY\DataGridBundle\Grid\Action\RowAction;
+use APY\DataGridBundle\Grid\Row;
 
 class RowActionTest extends \PHPUnit_Framework_TestCase
 {

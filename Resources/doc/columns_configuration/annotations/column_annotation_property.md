@@ -7,7 +7,7 @@ The Column annotation for a property allows to add a mapped source column.
 ```php
 <?php
 ...
-use Mahefa\APY\DataGridBundle\Grid\Mapping as GRID;
+use APY\DataGridBundle\Grid\Mapping as GRID;
 ...
 class Product
 {

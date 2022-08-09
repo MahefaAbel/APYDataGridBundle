@@ -9,7 +9,7 @@ Delimiter = `,`
 ```php
 <?php
 ...
-use Mahefa\APY\DataGridBundle\Grid\Export\CSVExport;
+use APY\DataGridBundle\Grid\Export\CSVExport;
 ...
 $grid->setSource($source);
 
@@ -37,7 +37,7 @@ $grid->addExport(new CSVExport($title, $fileName, $params, $charset, $role));
 ```php
 <?php
 ...
-use Mahefa\APY\DataGridBundle\Grid\Export\CSVExport;
+use APY\DataGridBundle\Grid\Export\CSVExport;
 ...
 $grid->setSource($source);
 

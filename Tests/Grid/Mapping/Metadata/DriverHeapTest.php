@@ -1,8 +1,8 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Tests\Grid\Mapping\Metadata;
+namespace APY\DataGridBundle\Tests\Grid\Mapping\Metadata;
 
-use Mahefa\APY\DataGridBundle\Grid\Mapping\Metadata\DriverHeap;
+use APY\DataGridBundle\Grid\Mapping\Metadata\DriverHeap;
 use PHPUnit\Framework\TestCase;
 
 class DriverHeapTest extends TestCase

@@ -9,7 +9,7 @@ Delimiter = _none_
 ```php
 <?php
 ...
-use Mahefa\APY\DataGridBundle\Grid\Export\DSVExport;
+use APY\DataGridBundle\Grid\Export\DSVExport;
 ...
 $grid->setSource($source);
 
@@ -37,7 +37,7 @@ $grid->addExport(new DSVExport($title, $fileName, $params, $charset, $role));
 ```php
 <?php
 ...
-use Mahefa\APY\DataGridBundle\Grid\Export\DSVExport;
+use APY\DataGridBundle\Grid\Export\DSVExport;
 ...
 $grid->setSource($source);
 
@@ -54,7 +54,7 @@ OR
 ```php
 <?php
 ...
-use Mahefa\APY\DataGridBundle\Grid\Export\DSVExport;
+use APY\DataGridBundle\Grid\Export\DSVExport;
 ...
 $grid->setSource($source);
 

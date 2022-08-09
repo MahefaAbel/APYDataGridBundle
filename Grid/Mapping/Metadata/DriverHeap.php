@@ -12,7 +12,7 @@
  * @todo check for column extensions
  */
 
-namespace Mahefa\APY\DataGridBundle\Grid\Mapping\Metadata;
+namespace APY\DataGridBundle\Grid\Mapping\Metadata;
 
 class DriverHeap extends \SplPriorityQueue
 {

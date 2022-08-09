@@ -10,11 +10,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\APY\DataGridBundle\Grid;
+namespace APY\DataGridBundle\Grid;
 
-use Mahefa\APY\DataGridBundle\Grid\Column\ActionsColumn;
-use Mahefa\APY\DataGridBundle\Grid\Column\Column;
-use Mahefa\APY\DataGridBundle\Grid\Helper\ColumnsIterator;
+use APY\DataGridBundle\Grid\Column\ActionsColumn;
+use APY\DataGridBundle\Grid\Column\Column;
+use APY\DataGridBundle\Grid\Helper\ColumnsIterator;
 use Symfony\Component\Security\Core\Authorization\AuthorizationCheckerInterface;
 
 class Columns implements \IteratorAggregate, \Countable

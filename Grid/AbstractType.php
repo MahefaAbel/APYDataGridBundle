@@ -1,6 +1,6 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Grid;
+namespace APY\DataGridBundle\Grid;
 
 use Symfony\Component\OptionsResolver\OptionsResolver;
 

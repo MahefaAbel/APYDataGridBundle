@@ -1,8 +1,8 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Tests\Grid\Column;
+namespace APY\DataGridBundle\Tests\Grid\Column;
 
-use Mahefa\APY\DataGridBundle\Grid\Column\BlankColumn;
+use APY\DataGridBundle\Grid\Column\BlankColumn;
 use PHPUnit\Framework\TestCase;
 
 class BlankColumnTest extends TestCase

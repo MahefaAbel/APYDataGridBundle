@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\APY\DataGridBundle\Grid\Export;
+namespace APY\DataGridBundle\Grid\Export;
 
 /**
  * PHPExcel 5 Export (97-2003) (.xls)

@@ -1,10 +1,10 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Tests\Grid\Column;
+namespace APY\DataGridBundle\Tests\Grid\Column;
 
-use Mahefa\APY\DataGridBundle\Grid\Column\BooleanColumn;
-use Mahefa\APY\DataGridBundle\Grid\Column\Column;
-use Mahefa\APY\DataGridBundle\Grid\Row;
+use APY\DataGridBundle\Grid\Column\BooleanColumn;
+use APY\DataGridBundle\Grid\Column\Column;
+use APY\DataGridBundle\Grid\Row;
 use PHPUnit\Framework\TestCase;
 use Symfony\Bundle\FrameworkBundle\Routing\Router;
 

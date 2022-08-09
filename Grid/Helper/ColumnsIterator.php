@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\APY\DataGridBundle\Grid\Helper;
+namespace APY\DataGridBundle\Grid\Helper;
 
 class ColumnsIterator extends \FilterIterator
 {

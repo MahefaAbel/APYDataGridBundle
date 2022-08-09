@@ -1,12 +1,12 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Tests\Grid\Source;
+namespace APY\DataGridBundle\Tests\Grid\Source;
 
-use Mahefa\APY\DataGridBundle\Grid\Column\Column;
-use Mahefa\APY\DataGridBundle\Grid\Column\UntypedColumn;
-use Mahefa\APY\DataGridBundle\Grid\Columns;
-use Mahefa\APY\DataGridBundle\Grid\Row;
-use Mahefa\APY\DataGridBundle\Grid\Source\Vector;
+use APY\DataGridBundle\Grid\Column\Column;
+use APY\DataGridBundle\Grid\Column\UntypedColumn;
+use APY\DataGridBundle\Grid\Columns;
+use APY\DataGridBundle\Grid\Row;
+use APY\DataGridBundle\Grid\Source\Vector;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\DependencyInjection\Container;
 
@@ -187,7 +187,7 @@ class VectorTest extends TestCase
 
         $vector = new Vector([], [$column1, $column2]);
 
-        $this->assertEquals('Mahefa\APY\DataGridBundle\Grid\Source\Vector' . md5($idCol1.$idCol2), $vector->getHash());
+        $this->assertEquals('APY\DataGridBundle\Grid\Source\Vector' . md5($idCol1.$idCol2), $vector->getHash());
     }
 
     public function testSetId()

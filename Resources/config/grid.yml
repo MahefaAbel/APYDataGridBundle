@@ -1,55 +1,55 @@
 services:
     # Core
     apy_grid.factory:
-        class: Mahefa\APY\DataGridBundle\Grid\GridFactory
+        class: APY\DataGridBundle\Grid\GridFactory
         arguments: ['@service_container', '@apy_grid.registry']
     apy_grid.registry:
-        class: Mahefa\APY\DataGridBundle\Grid\GridRegistry
+        class: APY\DataGridBundle\Grid\GridRegistry
 
     # Types
     apy_grid.type.grid:
-        class: Mahefa\APY\DataGridBundle\Grid\Type\GridType
+        class: APY\DataGridBundle\Grid\Type\GridType
         tags:
             - { name: apy_grid.type }
 
     # Columns
     apy_grid.column.text:
-        class: Mahefa\APY\DataGridBundle\Grid\Column\TextColumn
+        class: APY\DataGridBundle\Grid\Column\TextColumn
         tags:
             - { name: apy_grid.column }
     apy_grid.column.array:
-        class: Mahefa\APY\DataGridBundle\Grid\Column\ArrayColumn
+        class: APY\DataGridBundle\Grid\Column\ArrayColumn
         tags:
             - { name: apy_grid.column }
     apy_grid.column.blank:
-        class: Mahefa\APY\DataGridBundle\Grid\Column\BlankColumn
+        class: APY\DataGridBundle\Grid\Column\BlankColumn
         tags:
             - { name: apy_grid.column }
     apy_grid.column.boolean:
-        class: Mahefa\APY\DataGridBundle\Grid\Column\BooleanColumn
+        class: APY\DataGridBundle\Grid\Column\BooleanColumn
         tags:
             - { name: apy_grid.column }
     apy_grid.column.date:
-        class: Mahefa\APY\DataGridBundle\Grid\Column\DateColumn
+        class: APY\DataGridBundle\Grid\Column\DateColumn
         tags:
             - { name: apy_grid.column }
     apy_grid.column.date_time:
-        class: Mahefa\APY\DataGridBundle\Grid\Column\DateTimeColumn
+        class: APY\DataGridBundle\Grid\Column\DateTimeColumn
         tags:
             - { name: apy_grid.column }
     apy_grid.column.join:
-        class: Mahefa\APY\DataGridBundle\Grid\Column\JoinColumn
+        class: APY\DataGridBundle\Grid\Column\JoinColumn
         tags:
             - { name: apy_grid.column }
     apy_grid.column.number:
-        class: Mahefa\APY\DataGridBundle\Grid\Column\NumberColumn
+        class: APY\DataGridBundle\Grid\Column\NumberColumn
         tags:
             - { name: apy_grid.column }
     apy_grid.column.rank:
-        class: Mahefa\APY\DataGridBundle\Grid\Column\RankColumn
+        class: APY\DataGridBundle\Grid\Column\RankColumn
         tags:
             - { name: apy_grid.column }
     apy_grid.column.time:
-        class: Mahefa\APY\DataGridBundle\Grid\Column\TimeColumn
+        class: APY\DataGridBundle\Grid\Column\TimeColumn
         tags:
             - { name: apy_grid.column }

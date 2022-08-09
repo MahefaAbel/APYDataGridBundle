@@ -50,7 +50,7 @@ Same example in french:
 <?php
 namespace MyProject\MyBundle\Controller;
 
-use Mahefa\APY\DataGridBundle\Grid\Source\Entity;
+use APY\DataGridBundle\Grid\Source\Entity;
 
 class DefaultController extends Controller
 {
@@ -78,7 +78,7 @@ class DefaultController extends Controller
 namespace MyProject\MyBundle\Entity
 
 use Doctrine\ORM\Mapping as ORM;
-use Mahefa\APY\DataGridBundle\Grid\Mapping as GRID;
+use APY\DataGridBundle\Grid\Mapping as GRID;
 
 /**
  * @GRID\Source(columns="id, my_datetime")

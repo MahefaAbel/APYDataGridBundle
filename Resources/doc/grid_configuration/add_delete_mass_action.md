@@ -7,7 +7,7 @@ It doesn't work with the `Select All` option, only the visible rows can be delet
 ## Example
 ```php
 <?php
-use Mahefa\APY\DataGridBundle\Grid\Action\DeleteMassAction;
+use APY\DataGridBundle\Grid\Action\DeleteMassAction;
 ...
 $grid->setSource($source);
 

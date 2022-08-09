@@ -1,11 +1,11 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Tests\Grid\Column;
+namespace APY\DataGridBundle\Tests\Grid\Column;
 
-use Mahefa\APY\DataGridBundle\Grid\Column\Column;
-use Mahefa\APY\DataGridBundle\Grid\Column\DateTimeColumn;
-use Mahefa\APY\DataGridBundle\Grid\Filter;
-use Mahefa\APY\DataGridBundle\Grid\Row;
+use APY\DataGridBundle\Grid\Column\Column;
+use APY\DataGridBundle\Grid\Column\DateTimeColumn;
+use APY\DataGridBundle\Grid\Filter;
+use APY\DataGridBundle\Grid\Row;
 use Symfony\Bundle\FrameworkBundle\Routing\Router;
 
 class DateTimeColumnTest extends \PHPUnit_Framework_TestCase

@@ -14,7 +14,7 @@ $grid->addExport($export);
 ## Example
 ```php
 <?php
-use  Mahefa\APY\DataGridBundle\Grid\Export\XmlExport;
+use  APY\DataGridBundle\Grid\Export\XmlExport;
 ...
 $grid->setSource($source);
 

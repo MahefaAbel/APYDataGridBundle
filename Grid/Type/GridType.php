@@ -1,9 +1,9 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Grid\Type;
+namespace APY\DataGridBundle\Grid\Type;
 
-use Mahefa\APY\DataGridBundle\Grid\AbstractType;
-use Mahefa\APY\DataGridBundle\Grid\GridBuilder;
+use APY\DataGridBundle\Grid\AbstractType;
+use APY\DataGridBundle\Grid\GridBuilder;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
 /**
@@ -57,7 +57,7 @@ class GridType extends AbstractType
         ]);
 
         $allowedTypes = [
-            'source'           => ['null', 'Mahefa\APY\DataGridBundle\Grid\Source\Source'],
+            'source'           => ['null', 'APY\DataGridBundle\Grid\Source\Source'],
             'group_by'         => ['null', 'string', 'array'],
             'route_parameters' => 'array',
             'persistence'      => 'bool',

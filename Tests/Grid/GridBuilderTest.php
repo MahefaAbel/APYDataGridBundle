@@ -1,16 +1,16 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Tests\Grid;
+namespace APY\DataGridBundle\Tests\Grid;
 
-use Mahefa\APY\DataGridBundle\Grid\Column\Column;
-use Mahefa\APY\DataGridBundle\Grid\Exception\InvalidArgumentException;
-use Mahefa\APY\DataGridBundle\Grid\Exception\UnexpectedTypeException;
-use Mahefa\APY\DataGridBundle\Grid\Grid;
-use Mahefa\APY\DataGridBundle\Grid\GridBuilder;
-use Mahefa\APY\DataGridBundle\Grid\GridBuilderInterface;
-use Mahefa\APY\DataGridBundle\Grid\GridFactory;
-use Mahefa\APY\DataGridBundle\Grid\GridFactoryInterface;
-use Mahefa\APY\DataGridBundle\Grid\GridRegistryInterface;
+use APY\DataGridBundle\Grid\Column\Column;
+use APY\DataGridBundle\Grid\Exception\InvalidArgumentException;
+use APY\DataGridBundle\Grid\Exception\UnexpectedTypeException;
+use APY\DataGridBundle\Grid\Grid;
+use APY\DataGridBundle\Grid\GridBuilder;
+use APY\DataGridBundle\Grid\GridBuilderInterface;
+use APY\DataGridBundle\Grid\GridFactory;
+use APY\DataGridBundle\Grid\GridFactoryInterface;
+use APY\DataGridBundle\Grid\GridRegistryInterface;
 use PHPUnit\Framework\TestCase;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Symfony\Component\DependencyInjection\Container;

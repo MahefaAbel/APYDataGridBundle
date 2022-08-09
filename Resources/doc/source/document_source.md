@@ -12,7 +12,7 @@ Document source supports ODM dbal.
 namespace MyProject\MyBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Mahefa\APY\DataGridBundle\Grid\Source\Document;
+use APY\DataGridBundle\Grid\Source\Document;
 
 class DefaultController extends Controller
 {
@@ -20,7 +20,7 @@ class DefaultController extends Controller
     {
         $source = new Document($entity, $group);
 
-        /* @var $grid \Mahefa\APY\DataGridBundle\Grid\Grid */
+        /* @var $grid \APY\DataGridBundle\Grid\Grid */
         $grid = $this->get('grid');
 
         $grid->setSource($source);
@@ -44,7 +44,7 @@ class DefaultController extends Controller
 namespace MyProject\MyBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Mahefa\APY\DataGridBundle\Grid\Source\Document;
+use APY\DataGridBundle\Grid\Source\Document;
 
 class DefaultController extends Controller
 {
@@ -52,7 +52,7 @@ class DefaultController extends Controller
     {
         $source = new Document('MyProjectMyBundle:User');
 
-        /* @var $grid \Mahefa\APY\DataGridBundle\Grid\Grid */
+        /* @var $grid \APY\DataGridBundle\Grid\Grid */
         $grid = $this->get('grid');
         
         $grid->setSource($source);

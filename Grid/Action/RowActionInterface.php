@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\APY\DataGridBundle\Grid\Action;
+namespace APY\DataGridBundle\Grid\Action;
 
 // @todo: implementation seems to be more specific than interface. It obviously be the case but I've noticed that
 // only one method of this interface is used in our code. So I wonder if this interface is "updated" and is the mimimum

@@ -7,7 +7,7 @@ The DataGridBundle has moved from the S0RIEN repository to the Abhoryo repositor
 Therefore you should change the namespace of this bundle in your AppKernel.php:
 
 Before: `new Sorien\DataGridBundle\SorienDataGridBundle()`  
-After: `new Mahefa\APY\DataGridBundle\APYDataGridBundle()`
+After: `new APY\DataGridBundle\APYDataGridBundle()`
 
 And in autoload.php
 
@@ -24,7 +24,7 @@ After: `'APYDataGridBundle::blocks.html.twig`
 Example:
 
 Before: `use Sorien\DataGridBundle\Grid\Source\Entity;`  
-After: `use Mahefa\APY\DataGridBundle\Grid\Source\Entity;`
+After: `use APY\DataGridBundle\Grid\Source\Entity;`
 
 You call safely replace all `Sorien` occurences by `APY`.
 

@@ -11,7 +11,7 @@ You can manipulate the behavior of a column.
 $grid->setSource($source);
 
 // For auto-completion in your IDE
-/* @var $column \Mahefa\APY\DataGridBundle\Grid\Column\Column */
+/* @var $column \APY\DataGridBundle\Grid\Column\Column */
 $column = $grid->getColumn('my_column_id');
 
 $column->manipulateRenderCell($callback);

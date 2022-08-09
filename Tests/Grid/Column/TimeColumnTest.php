@@ -1,8 +1,8 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Tests\Grid\Column;
+namespace APY\DataGridBundle\Tests\Grid\Column;
 
-use Mahefa\APY\DataGridBundle\Grid\Column\TimeColumn;
+use APY\DataGridBundle\Grid\Column\TimeColumn;
 use PHPUnit\Framework\TestCase;
 
 class TimeColumnTest extends TestCase

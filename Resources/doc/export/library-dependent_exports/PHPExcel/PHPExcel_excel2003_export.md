@@ -10,7 +10,7 @@ Mime type = `application/vnd.ms-excel`
 ```php
 <?php
 ...
-use Mahefa\APY\DataGridBundle\Grid\Export\PHPExcel2003Export;
+use APY\DataGridBundle\Grid\Export\PHPExcel2003Export;
 ...
 $grid->setSource($source);
 

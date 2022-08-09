@@ -1,9 +1,9 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Translation;
+namespace APY\DataGridBundle\Translation;
 
-use Mahefa\APY\DataGridBundle\Grid\Mapping\Driver\Annotation;
-use Mahefa\APY\DataGridBundle\Grid\Mapping\Metadata\Manager;
+use APY\DataGridBundle\Grid\Mapping\Driver\Annotation;
+use APY\DataGridBundle\Grid\Mapping\Metadata\Manager;
 use Doctrine\Common\Annotations\AnnotationReader as DoctrineAnnotationReader;
 use JMS\TranslationBundle\Model\FileSource;
 use JMS\TranslationBundle\Model\Message;

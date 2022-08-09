@@ -1,9 +1,9 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Tests\Grid;
+namespace APY\DataGridBundle\Tests\Grid;
 
-use Mahefa\APY\DataGridBundle\Grid\Grid;
-use Mahefa\APY\DataGridBundle\Grid\GridManager;
+use APY\DataGridBundle\Grid\Grid;
+use APY\DataGridBundle\Grid\GridManager;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Templating\EngineInterface;
 use Symfony\Component\BrowserKit\Response;

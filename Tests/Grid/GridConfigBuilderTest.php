@@ -1,11 +1,11 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Tests\Grid;
+namespace APY\DataGridBundle\Tests\Grid;
 
-use Mahefa\APY\DataGridBundle\Grid\Action\RowActionInterface;
-use Mahefa\APY\DataGridBundle\Grid\GridConfigBuilder;
-use Mahefa\APY\DataGridBundle\Grid\GridTypeInterface;
-use Mahefa\APY\DataGridBundle\Grid\Source\Source;
+use APY\DataGridBundle\Grid\Action\RowActionInterface;
+use APY\DataGridBundle\Grid\GridConfigBuilder;
+use APY\DataGridBundle\Grid\GridTypeInterface;
+use APY\DataGridBundle\Grid\Source\Source;
 use PHPUnit\Framework\TestCase;
 
 class GridConfigBuilderTest extends TestCase

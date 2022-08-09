@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\APY\DataGridBundle\Grid\Export;
+namespace APY\DataGridBundle\Grid\Export;
 
 /**
  * Semi-Colon-Separated Values.

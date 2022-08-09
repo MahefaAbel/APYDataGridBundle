@@ -1,11 +1,11 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Tests\Grid\Mapping\Metadata;
+namespace APY\DataGridBundle\Tests\Grid\Mapping\Metadata;
 
-use Mahefa\APY\DataGridBundle\Grid\Mapping\Driver\DriverInterface;
-use Mahefa\APY\DataGridBundle\Grid\Mapping\Metadata\DriverHeap;
-use Mahefa\APY\DataGridBundle\Grid\Mapping\Metadata\Manager;
-use Mahefa\APY\DataGridBundle\Grid\Mapping\Metadata\Metadata;
+use APY\DataGridBundle\Grid\Mapping\Driver\DriverInterface;
+use APY\DataGridBundle\Grid\Mapping\Metadata\DriverHeap;
+use APY\DataGridBundle\Grid\Mapping\Metadata\Manager;
+use APY\DataGridBundle\Grid\Mapping\Metadata\Metadata;
 use PHPUnit\Framework\TestCase;
 
 class ManagerTest extends TestCase

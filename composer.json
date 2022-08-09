@@ -34,6 +34,9 @@
         "doctrine/orm": "~2.4,>=2.4.5",
         "doctrine/mongodb-odm": "^2.0"
     },
+    "conflict": {
+        "apy/datagrid-bundle": "*"
+    },
     "suggest": {
         "ext-intl": "Translate the grid",
         "ext-mbstring": "Convert your data with the right charset",
@@ -42,7 +45,7 @@
         "doctrine/mongodb-odm": "If you want to use Document as source, please require doctrine/mongodb-odm"
     },
     "autoload": {
-        "psr-4": { "Mahefa\\APY\\DataGridBundle\\": "" }
+        "psr-4": { "APY\\DataGridBundle\\": "" }
     },
     "extra": {
         "branch-alias": {

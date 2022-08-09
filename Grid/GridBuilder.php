@@ -1,10 +1,10 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Grid;
+namespace APY\DataGridBundle\Grid;
 
-use Mahefa\APY\DataGridBundle\Grid\Column\Column;
-use Mahefa\APY\DataGridBundle\Grid\Exception\InvalidArgumentException;
-use Mahefa\APY\DataGridBundle\Grid\Exception\UnexpectedTypeException;
+use APY\DataGridBundle\Grid\Column\Column;
+use APY\DataGridBundle\Grid\Exception\InvalidArgumentException;
+use APY\DataGridBundle\Grid\Exception\UnexpectedTypeException;
 use Symfony\Component\DependencyInjection\Container;
 
 /**
@@ -58,7 +58,7 @@ class GridBuilder extends GridConfigBuilder implements GridBuilderInterface
     {
         if (!$type instanceof Column) {
             if (!is_string($type)) {
-                throw new UnexpectedTypeException($type, 'string, Mahefa\APY\DataGridBundle\Grid\Column\Column');
+                throw new UnexpectedTypeException($type, 'string, APY\DataGridBundle\Grid\Column\Column');
             }
 
             $type = $this->factory->createColumn($name, $type, $options);

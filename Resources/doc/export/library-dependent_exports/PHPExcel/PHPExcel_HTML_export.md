@@ -10,7 +10,7 @@ Mime type = `text/html`
 ```php
 <?php
 ...
-use Mahefa\APY\DataGridBundle\Grid\Export\PHPExcelHTMLExport;
+use APY\DataGridBundle\Grid\Export\PHPExcelHTMLExport;
 ...
 $grid->setSource($source);
 

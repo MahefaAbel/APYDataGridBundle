@@ -1,10 +1,10 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Tests\Grid\Column;
+namespace APY\DataGridBundle\Tests\Grid\Column;
 
-use Mahefa\APY\DataGridBundle\Grid\Column\Column;
-use Mahefa\APY\DataGridBundle\Grid\Column\JoinColumn;
-use Mahefa\APY\DataGridBundle\Grid\Filter;
+use APY\DataGridBundle\Grid\Column\Column;
+use APY\DataGridBundle\Grid\Column\JoinColumn;
+use APY\DataGridBundle\Grid\Filter;
 use PHPUnit\Framework\TestCase;
 
 class JoinColumnTest extends TestCase

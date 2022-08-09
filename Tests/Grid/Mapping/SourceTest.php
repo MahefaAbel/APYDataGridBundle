@@ -1,8 +1,8 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Tests\Grid\Mapping;
+namespace APY\DataGridBundle\Tests\Grid\Mapping;
 
-use Mahefa\APY\DataGridBundle\Grid\Mapping\Source;
+use APY\DataGridBundle\Grid\Mapping\Source;
 use PHPUnit\Framework\TestCase;
 
 class SourceTest extends TestCase

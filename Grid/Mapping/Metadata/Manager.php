@@ -12,12 +12,12 @@
  * @todo check for column extensions
  */
 
-namespace Mahefa\APY\DataGridBundle\Grid\Mapping\Metadata;
+namespace APY\DataGridBundle\Grid\Mapping\Metadata;
 
 class Manager
 {
     /**
-     * @var \Mahefa\APY\DataGridBundle\Grid\Mapping\Driver\DriverInterface[]
+     * @var \APY\DataGridBundle\Grid\Mapping\Driver\DriverInterface[]
      */
     protected $drivers;
 
@@ -34,7 +34,7 @@ class Manager
     /**
      * @todo remove this hack
      *
-     * @return \Mahefa\APY\DataGridBundle\Grid\Mapping\Metadata\DriverHeap
+     * @return \APY\DataGridBundle\Grid\Mapping\Metadata\DriverHeap
      */
     public function getDrivers()
     {

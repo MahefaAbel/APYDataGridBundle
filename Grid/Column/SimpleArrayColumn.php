@@ -10,9 +10,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\APY\DataGridBundle\Grid\Column;
+namespace APY\DataGridBundle\Grid\Column;
 
-use Mahefa\APY\DataGridBundle\Grid\Filter;
+use APY\DataGridBundle\Grid\Filter;
 
 class SimpleArrayColumn extends Column
 {

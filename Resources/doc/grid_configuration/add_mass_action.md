@@ -8,7 +8,7 @@ When you define mass actions, a selector appears and a new column of checkboxes 
 ## Usage
 ```php
 <?php
-use Mahefa\APY\DataGridBundle\Grid\Action\MassAction;
+use APY\DataGridBundle\Grid\Action\MassAction;
 ...
 $grid->setSource($source);
 
@@ -36,7 +36,7 @@ $grid->addMassAction($massAction);
 
 ```php
 <?php
-use Mahefa\APY\DataGridBundle\Grid\Action\MassAction;
+use APY\DataGridBundle\Grid\Action\MassAction;
 ...
 $grid->setSource($source);
 
@@ -71,7 +71,7 @@ static public function myStaticMethod($primaryKeys, $allPrimaryKeys, $session, $
 
 ```php
 <?php
-use Mahefa\APY\DataGridBundle\Grid\Action\MassAction;
+use APY\DataGridBundle\Grid\Action\MassAction;
 ...
 $grid->setSource($source);
 
@@ -115,7 +115,7 @@ static public function myStaticMethod($primaryKeys, $allPrimaryKeys, $session, $
 
 ```php
 <?php
-use Mahefa\APY\DataGridBundle\Grid\Action\MassAction;
+use APY\DataGridBundle\Grid\Action\MassAction;
 ...
 $grid->setSource($source);
 

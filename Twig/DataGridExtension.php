@@ -10,10 +10,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\APY\DataGridBundle\Twig;
+namespace APY\DataGridBundle\Twig;
 
-use Mahefa\APY\DataGridBundle\Grid\Column\Column;
-use Mahefa\APY\DataGridBundle\Grid\Grid;
+use APY\DataGridBundle\Grid\Column\Column;
+use APY\DataGridBundle\Grid\Grid;
 use Pagerfanta\Adapter\NullAdapter;
 use Pagerfanta\Pagerfanta;
 use Symfony\Component\Routing\RouterInterface;
@@ -232,7 +232,7 @@ class DataGridExtension extends AbstractExtension implements GlobalsInterface
      *
      * @param Environment                            $environment
      * @param Column $column
-     * @param \Mahefa\APY\DataGridBundle\Grid\Row           $row
+     * @param \APY\DataGridBundle\Grid\Row           $row
      * @param Grid                                   $grid
      *
      * @return string

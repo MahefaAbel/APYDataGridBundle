@@ -10,10 +10,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\APY\DataGridBundle\Grid\Mapping\Driver;
+namespace APY\DataGridBundle\Grid\Mapping\Driver;
 
-use Mahefa\APY\DataGridBundle\Grid\Mapping\Column as Column;
-use Mahefa\APY\DataGridBundle\Grid\Mapping\Source as Source;
+use APY\DataGridBundle\Grid\Mapping\Column as Column;
+use APY\DataGridBundle\Grid\Mapping\Source as Source;
 
 class Annotation implements DriverInterface
 {

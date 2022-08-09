@@ -1,10 +1,10 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Tests\Grid\Mapping\Metadata;
+namespace APY\DataGridBundle\Tests\Grid\Mapping\Metadata;
 
-use Mahefa\APY\DataGridBundle\Grid\Column\Column;
-use Mahefa\APY\DataGridBundle\Grid\Columns;
-use Mahefa\APY\DataGridBundle\Grid\Mapping\Metadata\Metadata;
+use APY\DataGridBundle\Grid\Column\Column;
+use APY\DataGridBundle\Grid\Columns;
+use APY\DataGridBundle\Grid\Mapping\Metadata\Metadata;
 use PHPUnit\Framework\TestCase;
 
 class MetadataTest extends TestCase

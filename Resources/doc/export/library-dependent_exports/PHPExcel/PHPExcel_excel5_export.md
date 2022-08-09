@@ -9,7 +9,7 @@ Mime type = `application/vnd.ms-excel`
 ```php
 <?php
 ...
-use Mahefa\APY\DataGridBundle\Grid\Export\PHPExcel5Export;
+use APY\DataGridBundle\Grid\Export\PHPExcel5Export;
 ...
 $grid->setSource($source);
 

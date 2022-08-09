@@ -16,7 +16,7 @@ The video path is store in the $preview property
 ```php
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Grid\Column;
+namespace APY\DataGridBundle\Grid\Column;
 
 class VideoColumn extends Column
 {
@@ -49,7 +49,7 @@ Now you can use your new column type in annotation.
 ```php
 <?php
 ...
-use Mahefa\APY\DataGridBundle\Grid\Mapping as GRID;
+use APY\DataGridBundle\Grid\Mapping as GRID;
 ...
 class Movie
 {
@@ -71,7 +71,7 @@ You can add a new attribute to define the type of the player used to play the pr
 ```php
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Grid\Column;
+namespace APY\DataGridBundle\Grid\Column;
 
 class VideoColumn extends Column
 {

@@ -1,16 +1,16 @@
 <?php
 
-namespace Mahefa\APY\DataGridBundle\Tests\Grid;
+namespace APY\DataGridBundle\Tests\Grid;
 
-use Mahefa\APY\DataGridBundle\Grid\Column\TextColumn;
-use Mahefa\APY\DataGridBundle\Grid\Exception\UnexpectedTypeException;
-use Mahefa\APY\DataGridBundle\Grid\Grid;
-use Mahefa\APY\DataGridBundle\Grid\GridBuilder;
-use Mahefa\APY\DataGridBundle\Grid\GridBuilderInterface;
-use Mahefa\APY\DataGridBundle\Grid\GridFactory;
-use Mahefa\APY\DataGridBundle\Grid\GridRegistryInterface;
-use Mahefa\APY\DataGridBundle\Grid\GridTypeInterface;
-use Mahefa\APY\DataGridBundle\Grid\Type\GridType;
+use APY\DataGridBundle\Grid\Column\TextColumn;
+use APY\DataGridBundle\Grid\Exception\UnexpectedTypeException;
+use APY\DataGridBundle\Grid\Grid;
+use APY\DataGridBundle\Grid\GridBuilder;
+use APY\DataGridBundle\Grid\GridBuilderInterface;
+use APY\DataGridBundle\Grid\GridFactory;
+use APY\DataGridBundle\Grid\GridRegistryInterface;
+use APY\DataGridBundle\Grid\GridTypeInterface;
+use APY\DataGridBundle\Grid\Type\GridType;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\DependencyInjection\Container;
 use Symfony\Component\HttpFoundation\Request;

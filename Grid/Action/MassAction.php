@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\APY\DataGridBundle\Grid\Action;
+namespace APY\DataGridBundle\Grid\Action;
 
 class MassAction implements MassActionInterface
 {
