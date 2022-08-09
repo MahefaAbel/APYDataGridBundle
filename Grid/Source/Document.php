@@ -12,12 +12,12 @@
  *
  */
 
-namespace APY\DataGridBundle\Grid\Source;
+namespace Mahefa\APY\DataGridBundle\Grid\Source;
 
-use APY\DataGridBundle\Grid\Column\Column;
-use APY\DataGridBundle\Grid\Helper\ColumnsIterator;
-use APY\DataGridBundle\Grid\Row;
-use APY\DataGridBundle\Grid\Rows;
+use Mahefa\APY\DataGridBundle\Grid\Column\Column;
+use Mahefa\APY\DataGridBundle\Grid\Helper\ColumnsIterator;
+use Mahefa\APY\DataGridBundle\Grid\Row;
+use Mahefa\APY\DataGridBundle\Grid\Rows;
 use Doctrine\ODM\MongoDB\Query\Builder as QueryBuilder;
 use MongoDB\BSON\Regex;
 
@@ -49,7 +49,7 @@ class Document extends Source
     protected $documentName;
 
     /**
-     * @var \APY\DataGridBundle\Grid\Mapping\Metadata\Metadata
+     * @var \Mahefa\APY\DataGridBundle\Grid\Mapping\Metadata\Metadata
      */
     protected $metadata;
 
@@ -94,7 +94,7 @@ class Document extends Source
     }
 
     /**
-     * @param \APY\DataGridBundle\Grid\Columns $columns
+     * @param \Mahefa\APY\DataGridBundle\Grid\Columns $columns
      */
     public function getColumns($columns)
     {
@@ -186,7 +186,7 @@ class Document extends Source
      * @param int                                      $limit            Rows Per Page
      * @param int                                      $gridDataJunction Grid data junction
      *
-     * @return \APY\DataGridBundle\Grid\Rows
+     * @return \Mahefa\APY\DataGridBundle\Grid\Rows
      */
     public function execute($columns, $page = 0, $limit = 0, $maxResults = null, $gridDataJunction = Column::DATA_CONJUNCTION)
     {
@@ -280,7 +280,7 @@ class Document extends Source
 
     /**
      * @param array $subColumn
-     * @param Column \APY\DataGridBundle\Grid\Column\Column
+     * @param Column \Mahefa\APY\DataGridBundle\Grid\Column\Column
      */
     protected function addReferencedColumnn(array $subColumn, Column $column)
     {
@@ -315,12 +315,12 @@ class Document extends Source
     }
 
     /**
-     * @param \APY\DataGridBundle\Grid\Row $row
+     * @param \Mahefa\APY\DataGridBundle\Grid\Row $row
      * @param Document                     $resource
      *
      * @throws \Exception if getter for field does not exists
      *
-     * @return \APY\DataGridBundle\Grid\Row $row with referenced fields
+     * @return \Mahefa\APY\DataGridBundle\Grid\Row $row with referenced fields
      */
     protected function addReferencedFields(Row $row, $resource)
     {

@@ -1,8 +1,8 @@
 <?php
 
-namespace APY\DataGridBundle\Grid;
+namespace Mahefa\APY\DataGridBundle\Grid;
 
-use APY\DataGridBundle\Grid\Column\Column;
+use Mahefa\APY\DataGridBundle\Grid\Column\Column;
 
 /**
  * Interface GridBuilderInterface.

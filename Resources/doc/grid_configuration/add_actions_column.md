@@ -7,8 +7,8 @@ You can create other columns of row actions and choose the position of these one
 ```php
 <?php
 ...
-use APY\DataGridBundle\Grid\Action\RowAction;
-use APY\DataGridBundle\Grid\Column\ActionsColumn;
+use Mahefa\APY\DataGridBundle\Grid\Action\RowAction;
+use Mahefa\APY\DataGridBundle\Grid\Column\ActionsColumn;
 ...
 $grid->setSource($source);
 
@@ -51,8 +51,8 @@ Example:
 ```php
 <?php
 ...
-use APY\DataGridBundle\Grid\Action\RowAction;
-use APY\DataGridBundle\Grid\Column\ActionsColumn;
+use Mahefa\APY\DataGridBundle\Grid\Action\RowAction;
+use Mahefa\APY\DataGridBundle\Grid\Column\ActionsColumn;
 ...
 $grid->setSource($source);
 

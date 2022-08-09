@@ -191,8 +191,8 @@
     {% apply spaceless %}
     <div style="float:right;" class="grid_massactions">
         {{ 'Action'|trans }}
-        <input type="hidden" id="{{ grid.hash }}_mass_action_all" name="{{ grid.hash }}[{{ constant('APY\\DataGridBundle\\Grid\\Grid::REQUEST_QUERY_MASS_ACTION_ALL_KEYS_SELECTED') }}]" value="0"/>
-        <select name="{{ grid.hash }}[{{ constant('APY\\DataGridBundle\\Grid\\Grid::REQUEST_QUERY_MASS_ACTION') }}]">
+        <input type="hidden" id="{{ grid.hash }}_mass_action_all" name="{{ grid.hash }}[{{ constant('Mahefa\\APY\\DataGridBundle\\Grid\\Grid::REQUEST_QUERY_MASS_ACTION_ALL_KEYS_SELECTED') }}]" value="0"/>
+        <select name="{{ grid.hash }}[{{ constant('Mahefa\\APY\\DataGridBundle\\Grid\\Grid::REQUEST_QUERY_MASS_ACTION') }}]">
             <option value="-1"></option>
             {% for key, massAction in grid.massActions %}
             <option value="{{ key }}">{{ massAction.title|trans }}</option>
@@ -208,7 +208,7 @@
 <div class="exports" style="float:right">
     {% apply spaceless %}
         {{ 'Export'|trans }}
-            <select name="{{grid.hash}}[{{ constant('APY\\DataGridBundle\\Grid\\Grid::REQUEST_QUERY_EXPORT') }}]">
+            <select name="{{grid.hash}}[{{ constant('Mahefa\\APY\\DataGridBundle\\Grid\\Grid::REQUEST_QUERY_EXPORT') }}]">
             <option value="-1"></option>
             {% for key, export in grid.exports %}
             <option value="{{key}}">{{ export.title|trans }}</option>
@@ -223,7 +223,7 @@
 <div class="tweaks" style="float:right">
     {% apply spaceless %}
         {{ 'Tweaks'|trans }}
-            <select name="{{grid.hash}}[{{ constant('APY\\DataGridBundle\\Grid\\Grid::REQUEST_QUERY_TWEAK') }}]">
+            <select name="{{grid.hash}}[{{ constant('Mahefa\\APY\\DataGridBundle\\Grid\\Grid::REQUEST_QUERY_TWEAK') }}]">
             <option value=""></option>
             {% for key, tweak in grid.tweaks %}
             <option value="{{key}}">{{ tweak.title|trans }}</option>
@@ -324,10 +324,10 @@
 {% endblock grid_column_operator %}
 {# -------------------------------------------- grid_column_filter_type_input --------------------------------------- #}
 {% block grid_column_filter_type_input %}
-{% set btwOperator = constant('APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_BTW') %}
-{% set btweOperator = constant('APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_BTWE') %}
-{% set isNullOperator = constant('APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_ISNULL') %}
-{% set isNotNullOperator = constant('APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_ISNOTNULL') %}
+{% set btwOperator = constant('Mahefa\\APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_BTW') %}
+{% set btweOperator = constant('Mahefa\\APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_BTWE') %}
+{% set isNullOperator = constant('Mahefa\\APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_ISNULL') %}
+{% set isNotNullOperator = constant('Mahefa\\APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_ISNOTNULL') %}
 {% set op = column.data.operator ?? column.defaultOperator %}
 {% set from = column.data.from ?? null %}
 {% set to = column.data.to ?? null %}
@@ -341,10 +341,10 @@
 {% endblock grid_column_filter_type_input %}
 {# -------------------------------------------- grid_column_filter_type_select --------------------------------------- #}
 {% block grid_column_filter_type_select %}
-{% set btwOperator = constant('APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_BTW') %}
-{% set btweOperator = constant('APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_BTWE') %}
-{% set isNullOperator = constant('APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_ISNULL') %}
-{% set isNotNullOperator = constant('APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_ISNOTNULL') %}
+{% set btwOperator = constant('Mahefa\\APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_BTW') %}
+{% set btweOperator = constant('Mahefa\\APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_BTWE') %}
+{% set isNullOperator = constant('Mahefa\\APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_ISNULL') %}
+{% set isNotNullOperator = constant('Mahefa\\APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_ISNOTNULL') %}
 {% set op = column.data.operator ?? column.defaultOperator %}
 {% set from = column.data.from ?? null %}
 {% set to = column.data.to ?? null %}
@@ -536,10 +536,10 @@ function {{ grid.hash }}_markAll(select)
 {% endblock grid_scripts_mark_all %}
 
 {% block grid_scripts_switch_operator %}
-{% set btwOperator = constant('APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_BTW') %}
-{% set btweOperator = constant('APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_BTWE') %}
-{% set isNullOperator = constant('APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_ISNULL') %}
-{% set isNotNullOperator = constant('APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_ISNOTNULL') %}
+{% set btwOperator = constant('Mahefa\\APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_BTW') %}
+{% set btweOperator = constant('Mahefa\\APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_BTWE') %}
+{% set isNullOperator = constant('Mahefa\\APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_ISNULL') %}
+{% set isNotNullOperator = constant('Mahefa\\APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_ISNOTNULL') %}
 function {{ grid.hash }}_switchOperator(elt, query_, submitOnChange)
 {
 	submitOnChange = (typeof submitOnChange == 'undefined') ? true : submitOnChange;

@@ -1,14 +1,14 @@
 <?php
 
-namespace APY\DataGridBundle\Tests\Grid;
+namespace Mahefa\APY\DataGridBundle\Tests\Grid;
 
-use APY\DataGridBundle\Grid\Column\Column;
-use APY\DataGridBundle\Grid\Exception\ColumnAlreadyExistsException;
-use APY\DataGridBundle\Grid\Exception\ColumnNotFoundException;
-use APY\DataGridBundle\Grid\Exception\TypeAlreadyExistsException;
-use APY\DataGridBundle\Grid\Exception\TypeNotFoundException;
-use APY\DataGridBundle\Grid\GridRegistry;
-use APY\DataGridBundle\Grid\GridTypeInterface;
+use Mahefa\APY\DataGridBundle\Grid\Column\Column;
+use Mahefa\APY\DataGridBundle\Grid\Exception\ColumnAlreadyExistsException;
+use Mahefa\APY\DataGridBundle\Grid\Exception\ColumnNotFoundException;
+use Mahefa\APY\DataGridBundle\Grid\Exception\TypeAlreadyExistsException;
+use Mahefa\APY\DataGridBundle\Grid\Exception\TypeNotFoundException;
+use Mahefa\APY\DataGridBundle\Grid\GridRegistry;
+use Mahefa\APY\DataGridBundle\Grid\GridTypeInterface;
 use PHPUnit\Framework\TestCase;
 
 /**

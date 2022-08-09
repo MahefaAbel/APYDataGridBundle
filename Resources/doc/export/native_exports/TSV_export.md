@@ -9,7 +9,7 @@ Delimiter = `\t`
 ```php
 <?php
 ...
-use APY\DataGridBundle\Grid\Export\TSVExport;
+use Mahefa\APY\DataGridBundle\Grid\Export\TSVExport;
 ...
 $grid->setSource($source);
 
@@ -37,7 +37,7 @@ $grid->addExport(new TSVExport($title, $fileName, $params, $charset, $role));
 ```php
 <?php
 ...
-use APY\DataGridBundle\Grid\Export\TSVExport;
+use Mahefa\APY\DataGridBundle\Grid\Export\TSVExport;
 ...
 $grid->setSource($source);
 

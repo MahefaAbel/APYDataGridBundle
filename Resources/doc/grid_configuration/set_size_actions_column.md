@@ -23,7 +23,7 @@ $grid->setActionsColumnSize($size);
 ```php
 <?php
 ...
-use APY\DataGridBundle\Grid\Action\RowAction;
+use Mahefa\APY\DataGridBundle\Grid\Action\RowAction;
 ...
 $grid->setSource($source);
 

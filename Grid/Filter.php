@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace APY\DataGridBundle\Grid;
+namespace Mahefa\APY\DataGridBundle\Grid;
 
 class Filter
 {

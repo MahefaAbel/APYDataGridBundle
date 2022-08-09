@@ -1,10 +1,10 @@
 <?php
 
-namespace APY\DataGridBundle\Grid;
+namespace Mahefa\APY\DataGridBundle\Grid;
 
-use APY\DataGridBundle\Grid\Column\Column;
-use APY\DataGridBundle\Grid\Exception\UnexpectedTypeException;
-use APY\DataGridBundle\Grid\Source\Source;
+use Mahefa\APY\DataGridBundle\Grid\Column\Column;
+use Mahefa\APY\DataGridBundle\Grid\Exception\UnexpectedTypeException;
+use Mahefa\APY\DataGridBundle\Grid\Source\Source;
 use Symfony\Component\DependencyInjection\Container;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
@@ -70,7 +70,7 @@ class GridFactory implements GridFactoryInterface
     {
         if (!$type instanceof Column) {
             if (!is_string($type)) {
-                throw new UnexpectedTypeException($type, 'string, APY\DataGridBundle\Grid\Column\Column');
+                throw new UnexpectedTypeException($type, 'string, Mahefa\APY\DataGridBundle\Grid\Column\Column');
             }
 
             $column = clone $this->registry->getColumn($type);
@@ -100,7 +100,7 @@ class GridFactory implements GridFactoryInterface
     {
         if (!$type instanceof GridTypeInterface) {
             if (!is_string($type)) {
-                throw new UnexpectedTypeException($type, 'string, APY\DataGridBundle\Grid\GridTypeInterface');
+                throw new UnexpectedTypeException($type, 'string, Mahefa\APY\DataGridBundle\Grid\GridTypeInterface');
             }
 
             $type = $this->registry->getType($type);

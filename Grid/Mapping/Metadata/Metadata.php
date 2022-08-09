@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace APY\DataGridBundle\Grid\Mapping\Metadata;
+namespace Mahefa\APY\DataGridBundle\Grid\Mapping\Metadata;
 
 class Metadata
 {

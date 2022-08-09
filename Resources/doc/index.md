@@ -43,7 +43,7 @@ public function registerBundles()
 {
 	$bundles = array(
 		// ...
-		new APY\DataGridBundle\APYDataGridBundle(),
+		new Mahefa\APY\DataGridBundle\APYDataGridBundle(),
 		// ...
 	);
 }
@@ -57,7 +57,7 @@ public function registerBundles()
 <?php
 namespace MyProject\MyBundle\Controller;
 
-use APY\DataGridBundle\Grid\Source\Entity;
+use Mahefa\APY\DataGridBundle\Grid\Source\Entity;
 
 class DefaultController extends Controller
 {
@@ -85,7 +85,7 @@ class DefaultController extends Controller
 namespace MyProject\MyBundle\Entity
 
 use Doctrine\ORM\Mapping as ORM;
-use APY\DataGridBundle\Grid\Mapping as GRID;
+use Mahefa\APY\DataGridBundle\Grid\Mapping as GRID;
 
 /**
  * @GRID\Source(columns="id, my_datetime")

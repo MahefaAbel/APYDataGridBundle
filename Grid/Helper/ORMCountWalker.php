@@ -12,7 +12,7 @@
  * to kontakt@beberlei.de so I can send you a copy immediately.
  */
 
-namespace APY\DataGridBundle\Grid\Helper;
+namespace Mahefa\APY\DataGridBundle\Grid\Helper;
 
 use Doctrine\ORM\Query\AST\AggregateExpression;
 use Doctrine\ORM\Query\AST\PathExpression;

@@ -1,6 +1,6 @@
 <?php
 
-namespace APY\DataGridBundle\DependencyInjection;
+namespace Mahefa\APY\DataGridBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

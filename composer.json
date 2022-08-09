@@ -1,5 +1,5 @@
 {
-    "name": "MahefaAbel/datagrid-bundle",
+    "name": "mahefa/datagrid-bundle",
     "description": "Symfony Datagrid Bundle",
     "keywords": ["Symfony", "datagrid"],
     "homepage": "https://github.com/MahefaAbel/APYDataGridBundle",
@@ -7,24 +7,9 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Yoann Petit",
-            "email": "abhoryo@free.fr"
-        },
-        {
-            "name": "Stanislav Turza",
-            "email": "stanislav.turza@gmail.com"
-        },
-        {
-            "name": "Evan Owens",
-            "email": "eaowens@gmail.com"
-        },
-        {
-            "name": "Nicolas Potier",
-            "email": "contact@acseo.fr"
-        },
-        {
-            "name": "Mahefa",
-            "email": "abelmahefa@gmail.com"
+            "name": "Mahefa Abel",
+            "email": "abelmahefa@gmail.com",
+            "homepage": "https://www.mahefa.pro"
         }
     ],
     "require": {
@@ -58,7 +43,7 @@
         "doctrine/mongodb-odm": "If you want to use Document as source, please require doctrine/mongodb-odm"
     },
     "autoload": {
-        "psr-4": { "APY\\DataGridBundle\\": "" }
+        "psr-4": { "Mahefa\\APY\\DataGridBundle\\": "" }
     },
     "extra": {
         "branch-alias": {

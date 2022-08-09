@@ -1,8 +1,8 @@
 <?php
 
-namespace APY\DataGridBundle\Tests\Grid\Mapping;
+namespace Mahefa\APY\DataGridBundle\Tests\Grid\Mapping;
 
-use APY\DataGridBundle\Grid\Mapping\Column;
+use Mahefa\APY\DataGridBundle\Grid\Mapping\Column;
 use PHPUnit\Framework\TestCase;
 
 class ColumnTest extends TestCase

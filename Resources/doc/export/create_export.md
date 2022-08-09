@@ -16,7 +16,7 @@ We'll try to create a CSV export.
     <?php
     namespace MyProject\MyBundle\Export;
 
-    use APY\DataGridBundle\Grid\Export\Export;
+    use Mahefa\APY\DataGridBundle\Grid\Export\Export;
 
     class CSVExport extends Export
     {
@@ -82,7 +82,7 @@ We'll try to create a CSV export.
     <?php
     namespace MyProject\MyBundle\Export;
 
-    use APY\DataGridBundle\Grid\Export\Export;
+    use Mahefa\APY\DataGridBundle\Grid\Export\Export;
 
     class CSVExport extends Export
     {
@@ -107,7 +107,7 @@ We'll try to create a CSV export.
     <?php
     namespace MyProject\MyBundle\Export;
 
-    use APY\DataGridBundle\Grid\Export\Export;
+    use Mahefa\APY\DataGridBundle\Grid\Export\Export;
 
     class CSVExport extends Export
     {
@@ -190,7 +190,7 @@ We'll try to create a CSV export.
     <?php
     namespace MyProject\MyBundle\Export;
 
-    use APY\DataGridBundle\Grid\Export\Export;
+    use Mahefa\APY\DataGridBundle\Grid\Export\Export;
 
     class CSVExport extends Export
     {
@@ -233,7 +233,7 @@ We'll try to create a CSV export.
     <?php
     namespace MyProject\MyBundle\Export;
 
-    use APY\DataGridBundle\Grid\Export\Export;
+    use Mahefa\APY\DataGridBundle\Grid\Export\Export;
 
     class CSVExport extends Export
     {

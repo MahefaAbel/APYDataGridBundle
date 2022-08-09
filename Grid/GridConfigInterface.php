@@ -1,8 +1,8 @@
 <?php
 
-namespace APY\DataGridBundle\Grid;
+namespace Mahefa\APY\DataGridBundle\Grid;
 
-use APY\DataGridBundle\Grid\Source\Source;
+use Mahefa\APY\DataGridBundle\Grid\Source\Source;
 
 /**
  * The configuration of a {@link Grid} object.

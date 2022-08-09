@@ -7,7 +7,7 @@ Row actions are all put in the same new action column at the last position of th
 ## Usage
 ```php
 <?php
-use APY\DataGridBundle\Grid\Action\RowAction;
+use Mahefa\APY\DataGridBundle\Grid\Action\RowAction;
 ...
 $grid->setSource($source);
 
@@ -44,7 +44,7 @@ These parameters have a setter and a getter method.
 ## Example
 ```php
 <?php
-use APY\DataGridBundle\Grid\Action\RowAction;
+use Mahefa\APY\DataGridBundle\Grid\Action\RowAction;
 ...
 $grid->setSource($source);
 
@@ -63,7 +63,7 @@ For mapped fields, you catch a parameter with its camelCase representation. e.g.
 ## Example
 ```php
 <?php
-use APY\DataGridBundle\Grid\Action\RowAction;
+use Mahefa\APY\DataGridBundle\Grid\Action\RowAction;
 ...
 $rowAction2 = new RowAction('Edit', 'route_to_edit');
 $rowAction2->setRouteParameters(array('user.information.country'));
@@ -91,7 +91,7 @@ In this example the `user.information.country` field will be mapped to the `coun
 ## Example
 ```php
 <?php
-use APY\DataGridBundle\Grid\Action\RowAction;
+use Mahefa\APY\DataGridBundle\Grid\Action\RowAction;
 ...
 $grid->setSource($source);
 

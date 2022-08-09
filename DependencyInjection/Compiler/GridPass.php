@@ -1,6 +1,6 @@
 <?php
 
-namespace APY\DataGridBundle\DependencyInjection\Compiler;
+namespace Mahefa\APY\DataGridBundle\DependencyInjection\Compiler;
 
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

@@ -10,9 +10,9 @@
  * file that was distributed with this source code.
  */
 
-namespace APY\DataGridBundle\Grid\Action;
+namespace Mahefa\APY\DataGridBundle\Grid\Action;
 
-use APY\DataGridBundle\Grid\Row;
+use Mahefa\APY\DataGridBundle\Grid\Row;
 
 class RowAction implements RowActionInterface
 {
@@ -62,7 +62,7 @@ class RowAction implements RowActionInterface
      * @param array  $attributes Attributes of the anchor tag
      * @param string $role       Security role
      *
-     * @return \APY\DataGridBundle\Grid\Action\RowAction
+     * @return \Mahefa\APY\DataGridBundle\Grid\Action\RowAction
      */
     public function __construct($title, $route, $confirm = false, $target = '_self', $attributes = [], $role = null)
     {

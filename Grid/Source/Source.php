@@ -10,14 +10,14 @@
  * file that was distributed with this source code.
  */
 
-namespace APY\DataGridBundle\Grid\Source;
+namespace Mahefa\APY\DataGridBundle\Grid\Source;
 
-use APY\DataGridBundle\Grid\Column\Column;
-use APY\DataGridBundle\Grid\Exception\PropertyAccessDeniedException;
-use APY\DataGridBundle\Grid\Helper\ColumnsIterator;
-use APY\DataGridBundle\Grid\Mapping\Driver\DriverInterface;
-use APY\DataGridBundle\Grid\Row;
-use APY\DataGridBundle\Grid\Rows;
+use Mahefa\APY\DataGridBundle\Grid\Column\Column;
+use Mahefa\APY\DataGridBundle\Grid\Exception\PropertyAccessDeniedException;
+use Mahefa\APY\DataGridBundle\Grid\Helper\ColumnsIterator;
+use Mahefa\APY\DataGridBundle\Grid\Mapping\Driver\DriverInterface;
+use Mahefa\APY\DataGridBundle\Grid\Row;
+use Mahefa\APY\DataGridBundle\Grid\Rows;
 
 abstract class Source implements DriverInterface
 {
@@ -38,9 +38,9 @@ abstract class Source implements DriverInterface
     }
 
     /**
-     * @param \APY\DataGridBundle\Grid\Row $row
+     * @param \Mahefa\APY\DataGridBundle\Grid\Row $row
      *
-     * @return \APY\DataGridBundle\Grid\Row|null
+     * @return \Mahefa\APY\DataGridBundle\Grid\Row|null
      */
     public function prepareRow($row)
     {
@@ -83,7 +83,7 @@ abstract class Source implements DriverInterface
      * @param int                                      $limit            Rows Per Page
      * @param int                                      $gridDataJunction Grid data junction
      *
-     * @return \APY\DataGridBundle\Grid\Rows
+     * @return \Mahefa\APY\DataGridBundle\Grid\Rows
      */
     // @todo: typehint?
     abstract public function execute($columns, $page = 0, $limit = 0, $maxResults = null, $gridDataJunction = Column::DATA_CONJUNCTION);

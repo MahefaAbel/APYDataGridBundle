@@ -1,6 +1,6 @@
 <?php
 
-namespace APY\DataGridBundle\Grid\Exception;
+namespace Mahefa\APY\DataGridBundle\Grid\Exception;
 
 /**
  * Class ColumnAlreadyExistsException.

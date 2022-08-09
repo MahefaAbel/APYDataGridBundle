@@ -1,6 +1,6 @@
 <?php
 
-namespace APY\DataGridBundle\Grid;
+namespace Mahefa\APY\DataGridBundle\Grid;
 
 /**
  * Interface GridConfigBuilderInterface.

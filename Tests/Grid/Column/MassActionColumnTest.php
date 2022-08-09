@@ -1,9 +1,9 @@
 <?php
 
-namespace APY\DataGridBundle\Tests\Grid\Column;
+namespace Mahefa\APY\DataGridBundle\Tests\Grid\Column;
 
-use APY\DataGridBundle\Grid\Column\Column;
-use APY\DataGridBundle\Grid\Column\MassActionColumn;
+use Mahefa\APY\DataGridBundle\Grid\Column\Column;
+use Mahefa\APY\DataGridBundle\Grid\Column\MassActionColumn;
 use PHPUnit\Framework\TestCase;
 
 class MassActionColumnTest extends TestCase

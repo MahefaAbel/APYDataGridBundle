@@ -1,10 +1,10 @@
 <?php
 
-namespace APY\DataGridBundle\Tests\Grid\Column;
+namespace Mahefa\APY\DataGridBundle\Tests\Grid\Column;
 
-use APY\DataGridBundle\Grid\Column\Column;
-use APY\DataGridBundle\Grid\Column\TextColumn;
-use APY\DataGridBundle\Grid\Filter;
+use Mahefa\APY\DataGridBundle\Grid\Column\Column;
+use Mahefa\APY\DataGridBundle\Grid\Column\TextColumn;
+use Mahefa\APY\DataGridBundle\Grid\Filter;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
 class TextColumnTest extends WebTestCase

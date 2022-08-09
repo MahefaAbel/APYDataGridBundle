@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace APY\DataGridBundle\Grid\Column;
+namespace Mahefa\APY\DataGridBundle\Grid\Column;
 
 class BooleanColumn extends Column
 {

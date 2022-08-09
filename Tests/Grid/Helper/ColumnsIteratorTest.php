@@ -1,9 +1,9 @@
 <?php
 
-namespace APY\DataGridBundle\Tests\Grid\Helper;
+namespace Mahefa\APY\DataGridBundle\Tests\Grid\Helper;
 
-use APY\DataGridBundle\Grid\Column\Column;
-use APY\DataGridBundle\Grid\Helper\ColumnsIterator;
+use Mahefa\APY\DataGridBundle\Grid\Column\Column;
+use Mahefa\APY\DataGridBundle\Grid\Helper\ColumnsIterator;
 use PHPUnit\Framework\TestCase;
 
 class ColumnsIteratorTest extends TestCase

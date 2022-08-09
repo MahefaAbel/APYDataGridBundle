@@ -1,8 +1,8 @@
 <?php
 
-namespace APY\DataGridBundle\Tests\Grid\Action;
+namespace Mahefa\APY\DataGridBundle\Tests\Grid\Action;
 
-use APY\DataGridBundle\Grid\Action\DeleteMassAction;
+use Mahefa\APY\DataGridBundle\Grid\Action\DeleteMassAction;
 use PHPUnit\Framework\TestCase;
 
 class DeleteMassActionTest extends TestCase

@@ -10,10 +10,10 @@
  * file that was distributed with this source code.
  */
 
-namespace APY\DataGridBundle\Grid\Column;
+namespace Mahefa\APY\DataGridBundle\Grid\Column;
 
-use APY\DataGridBundle\Grid\Filter;
-use APY\DataGridBundle\Grid\Row;
+use Mahefa\APY\DataGridBundle\Grid\Filter;
+use Mahefa\APY\DataGridBundle\Grid\Row;
 use Doctrine\Common\Version as DoctrineVersion;
 use Symfony\Component\Security\Core\Authorization\AuthorizationCheckerInterface;
 
@@ -273,7 +273,7 @@ abstract class Column
      *
      * @param string $title
      *
-     * @return \APY\DataGridBundle\Grid\Column\Column
+     * @return \Mahefa\APY\DataGridBundle\Grid\Column\Column
      */
     public function setTitle($title)
     {
@@ -438,7 +438,7 @@ abstract class Column
      *
      * @param string $order asc|desc
      *
-     * @return \APY\DataGridBundle\Grid\Column\Column
+     * @return \Mahefa\APY\DataGridBundle\Grid\Column\Column
      */
     public function setOrder($order)
     {
@@ -465,7 +465,7 @@ abstract class Column
      *
      * @param int $size in pixels
      *
-     * @return \APY\DataGridBundle\Grid\Column\Column
+     * @return \Mahefa\APY\DataGridBundle\Grid\Column\Column
      */
     public function setSize($size)
     {
@@ -493,7 +493,7 @@ abstract class Column
      *
      * @param  $data
      *
-     * @return \APY\DataGridBundle\Grid\Column\Column
+     * @return \Mahefa\APY\DataGridBundle\Grid\Column\Column
      */
     public function setData($data)
     {
@@ -561,7 +561,7 @@ abstract class Column
      *
      * @param $visibleForSource
      *
-     * @return \APY\DataGridBundle\Grid\Column\Column
+     * @return \Mahefa\APY\DataGridBundle\Grid\Column\Column
      */
     public function setVisibleForSource($visibleForSource)
     {
@@ -932,7 +932,7 @@ abstract class Column
      *
      * @param string|bool $safeOption can be one of false, html, js, css, url, html_attr
      *
-     * @return \APY\DataGridBundle\Grid\Column\Column
+     * @return \Mahefa\APY\DataGridBundle\Grid\Column\Column
      */
     public function setSafe($safeOption)
     {

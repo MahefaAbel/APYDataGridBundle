@@ -10,7 +10,7 @@ Mime type = `application/vnd.openxmlformats-officedocument.spreadsheetml.sheet`
 ```php
 <?php
 ...
-use APY\DataGridBundle\Grid\Export\PHPExcel2007Export;
+use Mahefa\APY\DataGridBundle\Grid\Export\PHPExcel2007Export;
 ...
 $grid->setSource($source);
 

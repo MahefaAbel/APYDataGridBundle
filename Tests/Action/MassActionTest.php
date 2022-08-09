@@ -1,8 +1,8 @@
 <?php
 
-namespace APY\DataGridBundle\Tests\Action;
+namespace Mahefa\APY\DataGridBundle\Tests\Action;
 
-use APY\DataGridBundle\Grid\Action\MassAction;
+use Mahefa\APY\DataGridBundle\Grid\Action\MassAction;
 use PHPUnit\Framework\TestCase;
 
 class MassActionTest extends TestCase

@@ -8,7 +8,7 @@ Mime type = `application/octet-stream`
 ```php
 <?php
 ...
-use APY\DataGridBundle\Grid\Export\JSONExport;
+use Mahefa\APY\DataGridBundle\Grid\Export\JSONExport;
 ...
 $grid->setSource($source);
 
@@ -34,7 +34,7 @@ _None_
 ```php
 <?php
 ...
-use APY\DataGridBundle\Grid\Export\JSONExport;
+use Mahefa\APY\DataGridBundle\Grid\Export\JSONExport;
 ...
 $grid->setSource($source);
 

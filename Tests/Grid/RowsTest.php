@@ -1,9 +1,9 @@
 <?php
 
-namespace APY\DataGridBundle\Tests\Grid;
+namespace Mahefa\APY\DataGridBundle\Tests\Grid;
 
-use APY\DataGridBundle\Grid\Row;
-use APY\DataGridBundle\Grid\Rows;
+use Mahefa\APY\DataGridBundle\Grid\Row;
+use Mahefa\APY\DataGridBundle\Grid\Rows;
 use PHPUnit\Framework\TestCase;
 
 class RowsTest extends TestCase

@@ -16,10 +16,10 @@ This template is the input filter but with a different name.
 {% block grid_column_filter_type_input2 %}
 
 {# Operator #}
-{% set btwOperator = constant('APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_BTW') %}
-{% set btweOperator = constant('APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_BTWE') %}
-{% set isNullOperator = constant('APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_ISNULL') %}
-{% set isNotNullOperator = constant('APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_ISNOTNULL') %}
+{% set btwOperator = constant('Mahefa\\APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_BTW') %}
+{% set btweOperator = constant('Mahefa\\APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_BTWE') %}
+{% set isNullOperator = constant('Mahefa\\APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_ISNULL') %}
+{% set isNotNullOperator = constant('Mahefa\\APY\\DataGridBundle\\Grid\\Column\\Column::OPERATOR_ISNOTNULL') %}
 {% set op = column.data.operator is defined ? column.data.operator : column.defaultOperator %}
 
 {# Query #}

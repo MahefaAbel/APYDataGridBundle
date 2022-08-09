@@ -10,7 +10,7 @@ Entity source supports ORM dbal.
 namespace MyProject\MyBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use APY\DataGridBundle\Grid\Source\Entity;
+use Mahefa\APY\DataGridBundle\Grid\Source\Entity;
 
 class DefaultController extends Controller
 {
@@ -18,7 +18,7 @@ class DefaultController extends Controller
     {
         $source = new Entity($entity, $group, $managerName);
 
-        /* @var $grid \APY\DataGridBundle\Grid\Grid */
+        /* @var $grid \Mahefa\APY\DataGridBundle\Grid\Grid */
         $grid = $this->get('grid');
 
         $grid->setSource($source);
@@ -43,7 +43,7 @@ class DefaultController extends Controller
 namespace MyProject\MyBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use APY\DataGridBundle\Grid\Source\Entity;
+use Mahefa\APY\DataGridBundle\Grid\Source\Entity;
 
 class DefaultController extends Controller
 {
@@ -51,7 +51,7 @@ class DefaultController extends Controller
     {
         $source = new Entity('MyProjectMyBundle:User');
 
-        /* @var $grid \APY\DataGridBundle\Grid\Grid */
+        /* @var $grid \Mahefa\APY\DataGridBundle\Grid\Grid */
         $grid = $this->get('grid');
 
         $grid->setSource($source);

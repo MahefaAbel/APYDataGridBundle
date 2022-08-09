@@ -1,6 +1,6 @@
 <?php
 
-namespace APY\DataGridBundle\DependencyInjection\Compiler;
+namespace Mahefa\APY\DataGridBundle\DependencyInjection\Compiler;
 
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -22,7 +22,7 @@ class TranslationPass implements CompilerPassInterface
             return;
         }
 
-        $extractor = new Definition('APY\DataGridBundle\Translation\ColumnTitleAnnotationTranslationExtractor');
+        $extractor = new Definition('Mahefa\APY\DataGridBundle\Translation\ColumnTitleAnnotationTranslationExtractor');
         $extractor
             ->setPublic(false)
             ->addTag('jms_translation.file_visitor');

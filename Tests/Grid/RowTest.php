@@ -1,8 +1,8 @@
 <?php
 
-namespace APY\DataGridBundle\Tests\Grid;
+namespace Mahefa\APY\DataGridBundle\Tests\Grid;
 
-use APY\DataGridBundle\Grid\Row;
+use Mahefa\APY\DataGridBundle\Grid\Row;
 use Doctrine\ORM\EntityRepository;
 use PHPUnit\Framework\TestCase;
 

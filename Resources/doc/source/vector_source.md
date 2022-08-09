@@ -54,7 +54,7 @@ Just like any other source all you need is to instanciate the Vector and feed it
 
 ```php
 <?php
-use APY\DataGridBundle\Grid\Source\Vector;
+use Mahefa\APY\DataGridBundle\Grid\Source\Vector;
 ...
 /* fetch and store data in $books */
 
@@ -81,7 +81,7 @@ The columns can be filtered and ordered.
 In some cases, you want to render a grid without data (With the message No results). To do that you have to pass an array of Column when you instantiate your Vector.
 ```php
 <?php
-use APY\DataGridBundle\Grid\Column;
+use Mahefa\APY\DataGridBundle\Grid\Column;
 ...
 $columns = array(
     new Column\NumberColumn(array('id' => 'id', 'field' => 'id', 'source' => true, 'primary' => true, 'title' => 'id')),
@@ -191,7 +191,7 @@ return $grid->getGridResponse();
 You can also do that using an array of Column:
 ```php
 <?php
-use APY\DataGridBundle\Grid\Column;
+use Mahefa\APY\DataGridBundle\Grid\Column;
 ...
 $columns = array(
     new Column\NumberColumn(array('id' => 'id', 'field' => 'id', 'filterable' => true, 'source' => true)),

@@ -1,10 +1,10 @@
 <?php
 
-namespace APY\DataGridBundle\Tests\Grid\Column;
+namespace Mahefa\APY\DataGridBundle\Tests\Grid\Column;
 
-use APY\DataGridBundle\Grid\Action\RowAction;
-use APY\DataGridBundle\Grid\Column\ActionsColumn;
-use APY\DataGridBundle\Grid\Row;
+use Mahefa\APY\DataGridBundle\Grid\Action\RowAction;
+use Mahefa\APY\DataGridBundle\Grid\Column\ActionsColumn;
+use Mahefa\APY\DataGridBundle\Grid\Row;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Security\Core\Authorization\AuthorizationCheckerInterface;
 use Symfony\Component\Security\Core\Role\Role;

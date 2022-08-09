@@ -10,10 +10,10 @@
  * file that was distributed with this source code.
  */
 
-namespace APY\DataGridBundle;
+namespace Mahefa\APY\DataGridBundle;
 
-use APY\DataGridBundle\DependencyInjection\Compiler\GridExtensionPass;
-use APY\DataGridBundle\DependencyInjection\Compiler\GridPass;
+use Mahefa\APY\DataGridBundle\DependencyInjection\Compiler\GridExtensionPass;
+use Mahefa\APY\DataGridBundle\DependencyInjection\Compiler\GridPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

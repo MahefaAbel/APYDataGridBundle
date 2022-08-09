@@ -1,12 +1,12 @@
 <?php
 
-namespace APY\DataGridBundle\Grid;
+namespace Mahefa\APY\DataGridBundle\Grid;
 
-use APY\DataGridBundle\Grid\Column\Column;
-use APY\DataGridBundle\Grid\Exception\ColumnAlreadyExistsException;
-use APY\DataGridBundle\Grid\Exception\ColumnNotFoundException;
-use APY\DataGridBundle\Grid\Exception\TypeAlreadyExistsException;
-use APY\DataGridBundle\Grid\Exception\TypeNotFoundException;
+use Mahefa\APY\DataGridBundle\Grid\Column\Column;
+use Mahefa\APY\DataGridBundle\Grid\Exception\ColumnAlreadyExistsException;
+use Mahefa\APY\DataGridBundle\Grid\Exception\ColumnNotFoundException;
+use Mahefa\APY\DataGridBundle\Grid\Exception\TypeAlreadyExistsException;
+use Mahefa\APY\DataGridBundle\Grid\Exception\TypeNotFoundException;
 
 /**
  * The central registry of the Grid component.
